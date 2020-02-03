@@ -1,0 +1,12 @@
+#testMove {
+    border: 1px solid red;
+}
+
+#testMove2  {
+    width:20px;
+    height: 40px;
+    background-color: #191970;
+    position: relative;
+    left : 0px;
+}
+
