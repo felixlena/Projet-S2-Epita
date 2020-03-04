@@ -47,10 +47,17 @@ anime = requestAnimationFrame(move); // on lance l'animation*/
 /* RESPONSIVE_BUTTON_INDEX*/
 var nav = document.querySelector('.nav');
 
+var croix = document.querySelector('.croixButton');
+
 var btn = document.querySelector('.button');
 
 btn.onclick = function(){
     nav.classList.toggle('nav_open');
 }
+croix.onclick = function()    {
+    nav.classList.toggle('nav_open');
+}
+
+
 
 /* RESPONSIVE_BUTTON_INDEX*/

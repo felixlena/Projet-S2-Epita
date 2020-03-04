@@ -1,12 +1,11 @@
-#testMove {
-    border: 1px solid red;
+.newsMain   {
+    display: flex;
+    width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
 }
 
-#testMove2  {
-    width:20px;
-    height: 40px;
-    background-color: #191970;
-    position: relative;
-    left : 0px;
+.newsMain img   {
 }
-

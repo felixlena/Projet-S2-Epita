@@ -10,9 +10,11 @@
 
 
 <body id ="fond">
+    <div id = imageCentrale>
     <img src = "img/logo_d2_unamed.png" alt ="logo du jeu screen deroulant" width ="250" height= "137" id = "logo"> 
-    <img src ="img/nom_logo.png" alt="Nom du jeu" width ="600" height= "200" id="game">
+    <img src ="img/nom_logo.png" alt="Nom du jeu" width ="600" height= "200">
     <img src ="img/epilovers.png" alt ="le logo de l'equipe" width ="250" height= "160">
+    </div>
 
 
 
@@ -23,10 +25,11 @@
     </div>
 
     <div class="menu nav">
+            <div><img src="img/croix.png" class ="croixButton"></div>
             <img src="img/epilovers.png" alt ="logo" width=200 height = 150 > 
-            <a href="#back" alt ="genese">Genese du projet </a>
-            <a href ="#img2" alt ="presentation">Presentation </a>
-            <a href="#img3" alt= "gameplay">Gameplay </a> 
+            <a href="#back" alt ="genese" class="ecritureBurger1">Genese du projet </a>
+            <a href ="#img2" alt ="presentation" class="ecritureBurger2">Presentation </a>
+            <a href="#img3" alt= "gameplay" class="ecritureBurger3">Gameplay </a> 
     </div>
     <script type ="text/javascript" src="animations.js"></script>
     
@@ -56,7 +59,6 @@
         <br>
         <br>
         <br>
-        <br>
         <div id ="img2">
             <h1 class= "h1_acceuil"> Presentation du meiller jeu de l'Univers, d'ores et deja un classique.</h1>
             <p id= "need_it2">
@@ -80,9 +82,10 @@
     </section>
     <nav class= "nav_bas">
         <ul>
-            <li><a href = "Telechargement.html"> Telechargement</a></li>
-            <li class = "test"><a href="a_propos.html"> Qui sommes-nous ? </li>
-            <li><a href= "new.html"> Actualites </li>
+            <li class ="writedNav"><a href = "Telechargement.html"> Telechargement</a></li>
+            <li class = "test writedNav"><a href="a_propos.html"> Qui sommes-nous ? </li>
+            <li class = "test writedNav"><a href= "new.html"> Actualites </li>
+            <li class ="writedNav"><a href ="presentation.html"> Gallerie</a> </li> 
         </ul>
     </nav>
 </body>
