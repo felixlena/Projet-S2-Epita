@@ -1,0 +1,321 @@
+
+
+* {
+  padding:0;
+  margin:0 auto;
+  text-decoration: none;
+  color:white;
+  font-family: 'Roboto', ;
+}
+
+div {
+  color:black;
+}
+
+p{
+  color:black;
+}
+#button{
+  display: block;
+  margin:auto;
+  margin-bottom: 5%;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.toolsBar {
+  background-color: black;
+  padding:30px;
+
+}
+
+.toolsBar p  {
+  text-align: center;
+  color:white;
+  font-size: xx-large;
+}
+
+.topContainer {
+  display:flex;
+  justify-content: space-around;
+}
+
+.topContainer a{
+  color:white;
+  font-weight: bold;
+  font-size: smaller;
+  align-self:center;
+  letter-spacing: 2px;
+}
+
+.topContainer a:hover{
+  opacity:0.5;
+  transition-duration: 0.5s;
+}
+
+
+.menuResponsif  {
+  display: flex;
+  flex-direction: column;
+  padding-left:5%;
+  padding-right: 5%;
+  bottom:0;
+  position: fixed;
+  height: 100%;
+  background-color: black;
+  transition-duration: 0.5s;
+
+}
+
+.ouvertMenuResponsif  {
+  transition-duration: 0.5s;
+}
+
+.fermerMenuResponsif  {
+  margin-left: -120%;
+  transition-duration: 0.5s;
+}
+
+.menuResponsif  a{
+  color:white;
+  margin-top:15%;
+  margin-bottom:5%;
+}
+
+.mainTitle {
+  position: absolute;
+  visibility: hidden;
+}
+.voir {
+  visibility: hidden;
+}
+.mainMenu {
+  display:flex;
+  justify-content: space-around;
+  width: 80%;
+  visibility: visible;
+}
+@media screen and (max-width:900px) {
+  .voir {
+    visibility: visible;
+  }
+  .mainMenu {
+    visibility: hidden;
+  }
+  .mainTitle{
+    visibility: visible;
+  }
+
+}
+
+
+
+
+
+
+
+
+.videoBack  {
+  padding:5%;
+  background-color: white;
+}
+
+
+
+.flexContainer  {
+  display:flex;
+  justify-content: space-around;
+  width:100%;
+  padding:5% 0;
+  background-color: #f1f2f6;
+}
+
+.flexContainer  a:hover{
+  transform: scale(1.1);
+  transition-duration:1s ;
+}
+
+
+
+
+ .inflexContainer {
+   display: flex;
+   justify-content: space-between;
+   height: 125px;
+   width:25%;
+   padding:10px 0;
+   border: 1.5px solid rgb(212, 212, 212);
+
+
+ }
+
+@media screen and (max-width:1000px) {
+  .inflexContainer:nth-child(0n+3){
+    display: none;
+  }
+  .inflexContainer  {
+    width:300px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .inflexContainer:nth-child(2n)  {
+    display: none;
+  }
+}
+
+ .dansInflexContainer {
+   display: flex;
+   flex-direction: column;
+   width:10%;
+   align-self: center;
+ }
+
+
+ .bodyContainer  {
+  margin-bottom: 15%;
+}
+ .title{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color:Black;
+}
+
+.margeTexte   {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  margin-bottom: 2%;
+
+}
+
+#reg  {
+  width:20%;
+}
+
+
+
+.containerGallerie  {
+  margin-top:5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonContainer  {
+  width:30%;
+  display:flex;
+  justify-content:space-between;
+}
+
+@media screen and (max-width:600px) {
+  .buttonContainer :nth-child(0n+3){
+    display:None;
+
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .buttonContainer :nth-child(n+4){
+      display:None;
+  }
+}
+
+#trucrond {
+  background-color: red;
+  width:30px;
+  height: 30px;
+  border-radius:50%;
+}
+
+#download {
+  display:block;
+  margin:auto;
+}
+
+.ned{
+  margin-top: 200px;
+}
+
+.imgBody  {
+  width:40%;
+  height: 40%;
+}
+
+.bottomContainer {
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+  padding: 5%;
+  height: 500px;
+
+}
+
+
+.firstbottomContainer  {
+  margin:auto;
+  display: flex;
+  justify-content: space-around;
+  width:40%;
+}
+
+
+.firstbottomContainer  a{
+  color:white;
+  opacity: 0.5;
+}
+
+.firstbottomContainer  a:hover{
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+
+
+@media screen and (max-width:800px) {
+  .firstbottomContainer{
+    width:100%;
+  }
+}
+
+@media screen and (max-width:300px) { 
+  .firstbottomContainer:nth-child(2n){
+    visibility: hidden;
+  }
+}
+
+.mediaBottomContainer {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width:15%;
+}
+
+@media screen and (max-width:800px) {
+  .mediaBottomContainer {
+    width:35%;
+  }
+}
+
+
+.logoContainer  {
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+@media screen and (max-width:800px) {
+  .logoContainer img {
+    width:50%;
+  }
+}
+.ecritureBottom {
+  color:grey;
+  text-align: center;
+}
+
